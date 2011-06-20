@@ -1,0 +1,47 @@
+/*-------------------------------------------
+/////////////	MEDIA.CABIN.CSS	/////////////
+
+Licensed under GPL and MIT
+
+media.cabin.css will add media queries to your 
+project. This will enable your HTML document
+to scale to various widths depending on the 
+width of the device screen viewing the document.
+-------------------------------------------*/
+
+/*----------------------------------------
+	721px width - 960px width
+----------------------------------------*/
+@media (min-width:721px) and (max-width:960px) {
+
+body {
+	-webkit-text-size-adjust:none;
+}
+.wrapper {
+	width:720px;
+}	
+ul, ol {
+	margin-left:20px; /* the left margin is needed here to stop the bullet points falling outside of the page */
+}
+ul ul,ul ol,ol ol,ol ul {
+	margin:0 0 0 20px; /* decrease the left margin from 40px here as screen is narrower */
+}
+} /* end 721px - 960px */
+/*----------------------------------------
+	720px and under
+----------------------------------------*/
+@media (max-width:720px) {
+body {
+	-webkit-text-size-adjust:none;
+}
+.wrapper {
+	width:auto;
+	padding:10px;
+}
+ul, ol {
+	margin-left:20px; /* the left margin is needed here to stop the bullet points falling outside of the page */
+}
+ul ul,ul ol,ol ol,ol ul {
+	margin:0 0 0 20px; /* decrease the left margin from 40px here as screen is narrower */
+}
+} /* end 720px max */

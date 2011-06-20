@@ -1,0 +1,81 @@
+/*-------------------------------------------
+/////////////	FORMS.CABIN.CSS	/////////////
+
+Licensed under GPL and MIT
+
+forms.cabin.css will add basic styles to your forms, 
+allowing you to focus purely on making them look great.
+-------------------------------------------*/
+fieldset {
+	padding:10px;
+	border:1px solid #BBBBBB;
+	margin-bottom:1.5em;
+}
+label {
+	display:block;
+}
+input,textarea {
+	padding:10px;
+	font-family:inherit;
+	font-size:100%; /* 16px */
+	line-height:1.5em;
+	border:1px solid #BBBBBB;
+}
+input:hover,
+textarea:hover {
+	/*
+	If you want to add some custom hover states for the
+	input and textarea, do so here.
+	*/
+}
+.button {
+	cursor:pointer;
+	/*
+	This is the most basic button appearance. It's recommended
+	you add some background colour and border styles to make
+	the button stand out a little more.
+	*/
+}
+.button:hover {
+	/* 
+	If you are using custom button styles, remember to add
+	in some hover stlyes!
+	*/
+}
+/*----------------------------------------
+	SUCCESS, ERROR & ALERT MESSAGES
+	Apply the following classes to your success, 
+	error & alert messages.
+----------------------------------------*/
+.success,
+.error,
+.alert {
+	padding:10px;
+}
+.success {
+	border:1px solid #CBF231;
+	background:#EAFFCB;
+	color:#CBF231;
+}
+.success a {
+	color:#CBF231;
+	text-decoration:underline;
+}
+.error {
+	border:1px solid #F23131;
+	background:#FFCBCB;
+	color:#F23131;
+}
+.error a {
+	color:#F23131;
+	text-decoration:underline;
+}
+.alert {
+	border:1px solid #F2DF30;
+	background:#FFF9CB;
+	color:#F2DF30;
+}
+.alert a {
+	color:#F3DF30;
+	text-decoration:underline;
+}
