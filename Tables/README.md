@@ -5,9 +5,7 @@ This extensions will add some styles to tables in your project. You can use this
 Download the <code>tables.cabin.css</code> file and place it in your <code>/css</code> folder. 
 
 Open up your HTML document and add the following in the <code>&lt;head&gt;</code> section:
-
-<code>
+<pre><code>
 &lt;link rel="stylesheet" href="css/cabin.css" /&gt;
-<br />
 &lt;link rel="stylesheet" href="css/tables.cabin.css" /&gt;
-</code>
+</code></pre>
