@@ -1,5 +1,5 @@
 #Cabin Extensions
-Cabin is as powerful as you choose to make it. Adding extensions to your Cabin project couldn't be easier &mdash; simply add an additional stylesheet link in the <code>&lt;head&gt;</code> of your HTML document (see <i>How to use</i>).
+Cabin's extensions allow you to quickly and easily extend the functionality of the Cabin framework. Simply choose which one(s) you would like to Cabin, add the stylesheet link in your HTML document <code>&lt;head&gt;</code> and you're ready to go!
 
 ##How to use
 Download the Cabin extension file specific to your needs and place it in your <code>/css</code> folder. 
