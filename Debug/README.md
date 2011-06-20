@@ -15,7 +15,7 @@ This extensions is useful for debugging your project. It will detect and highlig
 	<li>Images with a blank alt attribute</li>
 </ul>
 
-##Installation
+##How to use
 Download the <code>debug.cabin.css</code> file and place it in your <code>/css</code> folder.
 
 Give your <code>&lt;HTML&gt;</code> element a <code>class="debug"</code> for example:
