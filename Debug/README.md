@@ -19,7 +19,7 @@ This extensions is useful for debugging your project. It will detect and highlig
 Download the <code>debug.cabin.css</code> file and place it in your <code>/css</code> folder.
 
 Give your <code>&lt;HTML&gt;</code> element a <code>class="debug"</code> for example:
-<pre><code>&lt;HTML lang="en" class="debug"&rt;	
+<pre><code>&lt;HTML lang="en" class="debug"&gt;	
 </code></pre> 
 Open up your HTML document and add the following in the <code>&lt;head&gt;</code> section:
 <pre><code>&lt;link rel="stylesheet" href="css/cabin.css" /&gt;
