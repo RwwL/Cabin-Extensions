@@ -11,7 +11,6 @@ Open up your HTML document and add the following in the <code>&lt;head&gt;</code
 <pre>
 <code>
 &lt;link rel="stylesheet" href="css/reset.cabin.css" /&gt;
-<br />
 &lt;link rel="stylesheet" href="css/cabin.css" /&gt;
 </code>
 </pre>
