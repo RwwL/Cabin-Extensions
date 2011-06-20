@@ -1,4 +1,4 @@
-##Cabin Extension: 12-column grid layout
+#Cabin Extension: 12-column grid layout
 This extension adds support for a 12 column grid. Included is a <code>@media</code> query which will dynamically change the size of the grids according to the dimensions of the screen.
 
 ##Installation
