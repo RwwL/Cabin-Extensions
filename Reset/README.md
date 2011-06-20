@@ -8,9 +8,7 @@ Open up your HTML document and add the following in the <code>&lt;head&gt;</code
 
 <b>Unlike other Cabin extensions, you need to make sure you reference the reset first.</b>
 
-<pre>
-<code>
+<pre><code>
 &lt;link rel="stylesheet" href="css/reset.cabin.css" /&gt;
 &lt;link rel="stylesheet" href="css/cabin.css" /&gt;
-</code>
-</pre>
+</code></pre>
