@@ -2,25 +2,14 @@
 /////////////	GRID12.CABIN.CSS	/////////////
 
 Licensed under GPL and MIT
-
-grid12.cabin.css is a fixed width grid layout based
-on the 960 grid system. 12 columns of 60px with
-10px margin left and right.
-
-This grid also includes media queries to resize
-the grid according the the viewing media's screen
-size
 -----------------------------------------------*/
-.clear {
-  clear: both;
-  display: block;
-  overflow: hidden;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-}
-.container12 {
-	margin:0 auto;
+/*----------------------------------------
+Setup grid
+Grid sizes based on 960gs
+Margin-left method thanks to Harry Roberts
+----------------------------------------*/
+.grids {
+	margin-left:-20px;
 	width:960px;
 }
 .grid1,
@@ -36,119 +25,115 @@ size
 .grid11,
 .grid12 {
 	float:left;
-	display:inline;
-	position:relative;
-	margin-left:1%;
-	margin-right:1%;
+	margin:0 0 0 20px;
 }
-.container12 .grid1 {
-	width:60px;
+.grid1 		{width:60px;}
+.grid2 		{width:140px;}
+.grid3 		{width:220px;}
+.grid4 		{width:300px;}
+.grid5 		{width:380px;}
+.grid6 		{width:460px;}
+.grid7 		{width:540px;}
+.grid8 		{width:620px;}
+.grid9 		{width:700px;}
+.grid10 	{width:780px;}
+.grid11 	{width:860px;}
+.grid12 	{width:940px;}
+/*----------------------------------------
+Clears
+Apply class="clear-left" to force grid to
+drop to next line
+----------------------------------------*/
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;	
 }
-.container12 .grid2 {
-	width:140px;
-}
-.container12 .grid3 {
-	width:220px;
-}
-.container12 .grid4 {
-	width:300px;
-}
-.container12 .grid5 {
-	width:380px;
-}
-.container12 .grid6 {
-	width:460px;
-}
-.container12 .grid7 {
-	width:540px;
-}
-.container12 .grid8 {
-	width:620px;
-}
-.container12 .grid9 {
-	width:700px;
-}
-.container12 .grid10 {
-	width:780px;
-}
-.container12 .grid11 {
-	width:860px;
-}
-.container12 .grid12 {
-	width:940px;
+.clear-left {
+	clear:left;
 }
 /*----------------------------------------
-	721px width - 960px width
+Push your grids to the right
+----------------------------------------*/
+.left1 		{padding-left:80px;}
+.left2 		{padding-left:160px;}
+.left3 		{padding-left:240px;}
+.left4 		{padding-left:320px;}
+.left5 		{padding-left:400px;}
+.left6 		{padding-left:480px;}
+.left7 		{padding-left:560px;}
+.left8 		{padding-left:640px;}
+.left9 		{padding-left:720px;}
+.left10 	{padding-left:800px;}
+.left11 	{padding-left:880px;}
+/*----------------------------------------
+Resize grids according to screen width
+721px-960px wide
 ----------------------------------------*/
 @media (min-width:721px) and (max-width:960px) {
-.container12 {
-	margin:0 auto;
-	width:720px;	
-}
-.container12 .grid1 {
-	width:40px;
-}
-.container12 .grid2 {
-	width:100px;
-}
-.container12 .grid3 {
-	width:160px;
-}
-.container12 .grid4 {
-	width:220px;
-}
-.container12 .grid5 {
-	width:280px;
-}
-.container12 .grid6 {
-	width:340px;
-}
-.container12 .grid7 {
-	width:400px;
-}
-.container12 .grid8 {
-	width:460px;
-}
-.container12 .grid9 {
-	width:520px;
-}
-.container12 .grid10 {
-	width:580px;
-}
-.container12 .grid11 {
-	width:640px;
-}
-.container12 .grid12 {
+.wrapper {
 	width:700px;
 }
-} /* end 721px - 960px */
+.grids {
+	width:720px;
+}
+.grid1 		{width:40px;}
+.grid2 		{width:100px;}
+.grid3 		{width:160px;}
+.grid4 		{width:220px;}
+.grid5 		{width:280px;}
+.grid6 		{width:340px;}
+.grid7 		{width:400px;}
+.grid8 		{width:460px;}
+.grid9 		{width:520px;}
+.grid10 	{width:580px;}
+.grid11 	{width:640px;}
+.grid12 	{width:700px;}
+
+.left1 		{padding-left:60px;}
+.left2 		{padding-left:120px;}
+.left3 		{padding-left:180px;}
+.left4 		{padding-left:240px;}
+.left5 		{padding-left:300px;}
+.left6 		{padding-left:360px;}
+.left7 		{padding-left:420px;}
+.left8 		{padding-left:480px;}
+.left9 		{padding-left:540px;}
+.left10 	{padding-left:600px;}
+.left11 	{padding-left:660px;}
+}/* Do not delete this brace */
 /*----------------------------------------
-	720px and under
-	At 720px and under the grid will effectively become a series
-	of non-floated divs.
+Resize grids according to screen width
+720px and below - Grids will become linearised
 ----------------------------------------*/
-@media (max-width:720px) {
-	
-body {
+@media (max-width: 720px){
+.wrapper {
+	width:auto;
 	padding:10px;
 }
-.container {
+.grids {
 	width:auto;
+	margin:0;
 }
-.grid1,
-.grid2,
-.grid3,
-.grid4,
-.grid5,
-.grid6,
-.grid7,
-.grid8,
-.grid9,
-.grid10,
-.grid11,
-.grid12 {
-	width:auto;
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6,
+.grid7,.grid8,.grid9,.grid10,.grid11,.grid12 {
 	float:none;
-	margin:0 !important;
+	width:auto;
+	margin:0;
 }
+.left1,.left2,.left3,.left4,.left5,.left6,
+.left7,.left8,.left9,.left10,.left11 {
+	padding:0;
+}
+}/* Do not delete this brace */
+/*----------------------------------------
+Debugging - remove if you want
+----------------------------------------*/
+p {
+	background: #BBBBBB;
+	padding:5px;
+	margin:0 0 5px 0;
 }
