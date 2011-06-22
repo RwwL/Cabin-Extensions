@@ -2,13 +2,13 @@
 /////////////	TABLES.CABIN.CSS	/////////////
 
 Licensed under GPL and MIT
-
-tables.cabin.css will add basic styles to your tables, 
-allowing you to focus purely on making them look great.
 -----------------------------------------------*/
 table {
 	max-width:100%;
 	margin-bottom:1.5em;
+}
+thead {
+	
 }
 th {
 	font-weight:bold;
@@ -30,5 +30,5 @@ th:empty {
 }
 tfoot {
 	font-size:0.625em; 		/* 10 px */
-	text-align:center; 		/* text is center aligned by default, but just to make sure */
+	text-align:center;
 }

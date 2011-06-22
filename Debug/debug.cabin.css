@@ -3,10 +3,6 @@
 
 Licensed under GPL and MIT
 
-debug.cabin.css includes some useful debugging
-classes you can apply to your documents HTML
-element to outline some common errors made.
-
 ONLY APPLY THE DEBUG CLASS TO OFFLINE PROJETCS
 OR A LIVE PROJECT IN OFFLINE MODE.
 
@@ -23,7 +19,6 @@ How to use:
 
 Refer to comments for color explanations
 -------------------------------------------*/
-
 /*----------------------------------------
 	LINK DEBUG
 	These will check your links for:
