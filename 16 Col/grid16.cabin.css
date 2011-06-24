@@ -97,7 +97,7 @@ Resize grids according to screen width
 ----------------------------------------*/
 @media (min-width:721px) and (max-width:960px) {
 .wrapper {
-	width:700px;
+	width:720px;
 }
 .grids {
 	width:720px;
