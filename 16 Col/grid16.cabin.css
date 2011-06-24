@@ -1,8 +1,13 @@
-/*-----------------------------------------------
-/////////////	GRID16.CABIN.CSS	/////////////
-
-Licensed under GPL and MIT
------------------------------------------------*/
+/*----------------------------------------
+//////////////////////////////////////////	
+GRID16.CABIN.CSS
+//////////////////////////////////////////
+Author:		Adam Whitcroft
+URL:		http://www.cabincss.com
+Twitter:	@adamwhitcroft
+License:	MIT
+//////////////////////////////////////////
+----------------------------------------*/
 /* 
 I have included the .wrapper styles here
 so that the grid demonstration will work. You
@@ -16,7 +21,7 @@ file when you use it
 /*----------------------------------------
 Setup grid
 Grid sizes based on 960gs
-Margin-left method thanks to Harry Roberts
+Margin-left method by Harry Roberts
 ----------------------------------------*/
 .grids {
 	margin-left:-20px;

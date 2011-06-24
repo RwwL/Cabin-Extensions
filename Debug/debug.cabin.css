@@ -1,11 +1,12 @@
-/*-------------------------------------------
-/////////////	DEBUG.CABIN.CSS	/////////////
-
-Licensed under GPL and MIT
-
-ONLY APPLY THE DEBUG CLASS TO OFFLINE PROJETCS
-OR A LIVE PROJECT IN OFFLINE MODE.
-
+/*----------------------------------------
+//////////////////////////////////////////	
+DEBUG.CABIN.CSS
+//////////////////////////////////////////
+Author:		Adam Whitcroft
+URL:		http://www.cabincss.com
+Twitter:	@adamwhitcroft
+License:	MIT
+//////////////////////////////////////////
 How to use:
 
 <HTML class="debug">
@@ -16,9 +17,7 @@ How to use:
 		[body content]
 	</body>
 </HTML>
-
-Refer to comments for color explanations
--------------------------------------------*/
+----------------------------------------*/
 /*----------------------------------------
 	LINK DEBUG
 	These will check your links for:

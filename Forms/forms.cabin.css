@@ -1,8 +1,13 @@
-/*-------------------------------------------
-/////////////	FORMS.CABIN.CSS	/////////////
-
-Licensed under GPL and MIT
--------------------------------------------*/
+/*----------------------------------------
+//////////////////////////////////////////	
+FORMS.CABIN.CSS
+//////////////////////////////////////////
+Author:		Adam Whitcroft
+URL:		http://www.cabincss.com
+Twitter:	@adamwhitcroft
+License:	MIT
+//////////////////////////////////////////
+----------------------------------------*/
 fieldset {
 	padding:10px;
 	border:1px solid #BBBBBB;
@@ -52,27 +57,27 @@ textarea:hover {
 .success {
 	border:1px solid #CBF231;
 	background:#EAFFCB;
-	color:#CBF231;
+	color:green;
 }
 .success a {
-	color:#CBF231;
+	color:green;
 	text-decoration:underline;
 }
 .error {
 	border:1px solid #F23131;
 	background:#FFCBCB;
-	color:#F23131;
+	color:red;
 }
 .error a {
-	color:#F23131;
+	color:#red;
 	text-decoration:underline;
 }
 .alert {
 	border:1px solid #F2DF30;
-	background:#FFF9CB;
-	color:#F2DF30;
+	background:#fffce7;
+	color:#c2af00;
 }
 .alert a {
-	color:#F3DF30;
+	color:#c2af00;
 	text-decoration:underline;
 }
