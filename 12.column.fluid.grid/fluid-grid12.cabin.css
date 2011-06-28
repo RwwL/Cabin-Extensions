@@ -1,0 +1,56 @@
+/*----------------------------------------
+//////////////////////////////////////////	
+FLUID-GRID12.CABIN.CSS
+//////////////////////////////////////////
+Author:		Adam Whitcroft
+URL:		http://www.cabincss.com
+Twitter:	@adamwhitcroft
+License:	MIT
+//////////////////////////////////////////
+----------------------------------------*/
+.wrapper {
+	max-width:940px;
+	margin:0 auto;
+	padding:10px;
+}
+/*----------------------------------------
+Setup grid
+Grid sizes based on 960gs
+Margin-left method by Harry Roberts
+----------------------------------------*/
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.grids {
+	max-width:960px;
+	margin:0 0 0 -2.08%;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6,
+.grid7,.grid8,.grid9,.grid10,.grid11,.grid12 {
+	float:left;
+	margin:0 0 0 2.08%;
+}
+.grid1		{width:6.25%;}
+.grid2		{width:14.58%;}
+.grid3		{width:22.91%;}
+.grid4		{width:31.25%;}
+.grid5		{width:39.58%;}
+.grid6		{width:47.91%;}
+.grid7		{width:56.25%;}
+.grid8		{width:64.58%;}
+.grid9		{width:72.91%;}
+.grid10		{width:81.25%;}
+.grid11		{width:89.58%;}
+.grid12		{width:97.91%;}
+/*----------------------------------------
+DEMONSTRATION STYLES - remove these for your site
+----------------------------------------*/
+p {
+	background:#BBBBBB;
+	padding:2px;
+}
