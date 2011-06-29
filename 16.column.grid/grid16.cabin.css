@@ -164,11 +164,3 @@ Resize grids according to screen width
 	padding:0;
 }
 }/* Do not delete this brace */
-/*----------------------------------------
-Debugging - remove if you want
-----------------------------------------*/
-p {
-	background: #BBBBBB;
-	padding:5px;
-	margin:0 0 5px 0;
-}
