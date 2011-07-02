@@ -15,8 +15,34 @@ I claim no right of ownership to the respective
 company logos and glyphs in each one of these icons
 ----------------------------------------*/
 /*----------------------------------------
-how to in here
+There are classes for 16px and 32px icons.
+
+<div class="sm16-*">
+	<p>
+		Your message
+	</p>
+</div>
+
+OR
+
+<div class="sm32-*">
+	<p>
+		Your message
+	</p>
+</div>
+
+In both cases, replace the * with your desired 
+name, for example: 
+
+<div class="sm16-twitter">
+	<p>
+		This will display a Twitter related message
+	</p>
+</div>
 ----------------------------------------*/
+/* 
+Some clever CSS selectors to apply margins, paddings etc.
+*/
 [class^="sm"] p {
 	margin:0;
 }
