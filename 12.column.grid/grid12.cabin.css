@@ -15,7 +15,7 @@ should remove the .wrapper styles from this
 file when you use it
 */
 .wrapper {
-	width:960px;
+	width:940px;
 	margin:0 auto;
 	padding:10px;
 }
